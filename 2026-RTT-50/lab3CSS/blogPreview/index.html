@@ -17,29 +17,29 @@
     <title>Frontend Mentor | Blog preview card</title>
 </head>
 
-<body class="bg-[#F4D04E] min-h-screen flex flex-col items-center justify-center">
-  <div id="card" class="bg-white p-6 rounded-[1.25rem] w-[384px]  grid grid-col-1 gap-4 border-2 border-solid border-gray-950 shadow-[8px_8px_black]">
+<body class="font-[Figtree] bg-[#F4D04E] min-h-screen flex flex-col items-center justify-center">
+  <div id="card" class="group bg-white p-6 rounded-[1.25rem] w-[384px]  grid grid-col-1 gap-4 border-2 border-solid border-gray-950 shadow-[8px_8px_black] hover:shadow-[12px_12px_black]">
     <div id="blogImg">
       <img src="./assets/images/illustration-article.svg" alt="Yellow and black abstract vector graphic with programming visual references" class="rounded-[0.625rem]">
     </div>
     <article class="w-full  grid grid-col-1 gap-3">
       <div class="inline-flex items-center w-fit px-2.5 py-0.5 w- rounded-[0.25rem] bg-[#F4D04E]">
-        <p class="text">Learning</p>
+        <p class="text-sm font-bold ">Learning</p>
       </div>
-      <p class="published">Published 21 Dec 2023</p>
-      <h1>HTML & CSS foundations</h1>
-      <p class="leading-none">
+      <p class="text-sm">Published 21 Dec 2023</p>
+      <h1 class="text-2xl font-extrabold group-hover:text-[#F4D04E]">HTML & CSS foundations</h1>
+      <p class="leading-1 font-medium text-gray-500">
         These languages are the backbone of every website, defining structure, content, and presentation.
       </p>
     </article>
       <div id="author" class="flex flex-row items-center gap-[0.75rem]">
         <img src="./assets/images/image-avatar.webp" alt="Profile picture of Greg Hopper looking to the left into the distance" class="w-[32px]">
-        <p class="name">Greg Hooper</p>
+        <p class="text-sm font-extrabold">Greg Hooper</p>
       </div>
     </div>
   </div>
 
-  <footer class="attribution">
+  <footer class="pt-[64px]">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Shakeam Campbell</a>.
   </footer>
